@@ -4,10 +4,23 @@
     margin: 0;
     max-width:100%;
     border: 1px solid red;
+    font-size: 62.5%;
 }
 nav{
     display:flex;
     align
+}
+h1{
+    font-size: 3rem;
+}
+p{
+    font-size:1.6rem;
+}
+h2{
+    font-size:2rem;
+}
+h3{
+    font-size:2rem;
 }
 a{
 
@@ -17,6 +30,7 @@ a{
     color:black;
     text-align:center;
     background-color:lightgray;
+    font-size:1.6rem;
 }
 .home{
     background
@@ -37,4 +51,14 @@ a{
     width:80%;
     margin: 80% 95% 20% 5%;
     
+}
+.sect2{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin:auto;
+    align-items:center;
+}
+.box{
+    width:30%;
 }
