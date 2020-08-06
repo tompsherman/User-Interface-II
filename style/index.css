@@ -3,5 +3,37 @@
     padding: 0;
     margin: 0;
     max-width:100%;
-    border: 1px solid black;
+    border: 1px solid red;
+}
+nav{
+    display:flex;
+    align
+}
+a{
+
+    text-decoration:none;
+    width:10%;
+    border-radius:0px;
+    color:black;
+    text-align:center;
+    background-color:lightgray;
+}
+.home{
+    background
+}
+.sect1{
+    display:flex;
+}
+.bigimage{
+
+    width:50%;
+
+}
+.bigbox{
+    width:50%;
+}
+.introtext{
+    width:50%;
+    margin: 50% 80% 50% 20%;
+    
 }
