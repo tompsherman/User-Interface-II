@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Luckiest+Guy&display=swap');
 *{
     box-sizing: border-box;
     padding: 0;
@@ -7,32 +9,40 @@
 }
 nav{
     display:flex;
-    align
 }
 h1{
     font-size: 3rem;
     padding:5%;
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 2px;
 }
 p{
     font-size:1.6rem;
+    font-family: 'Architects Daughter', cursive;
 }
 h2{
     font-size:2.2rem;
+    margin-bottom: 3%;
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 2px;
+
 }
 h3{
     font-size:2rem;
     text-align: center;
+    font-family: 'Architects Daughter', cursive;
 }
 a{
 
     text-decoration:none;
-    width:10%;
+    width:15%;
     color:black;
     text-align:center;
     background-color:lightgray;
     font-size:1.6rem;
-    padding:1%;
+    padding:2%;
     margin: 0;
+    font-family: 'Architects Daughter', cursive;
 }
 .home{
     border: 1px solid black;
@@ -75,25 +85,27 @@ background-color:white;
 }
 .sect1{
     display:flex;
-    width: 90%; 
+    width: 100%; 
     margin: 0 auto;
+    background-color: papayawhip;
 }
 .bigimage{
 
-    width:50%;
+    width:45%;
     margin:auto;
 
 }
 .bigbox{
-    width:50%;
+    width:45%;
 }
 .introtext{
     width:80%;
     margin: 80% 95% 20% 5%;
     display: inline-block;
     line-height: 1.5;
-
-
+}
+.introtext p{
+    margin-top: 10px;
 }
 .sect2{
     display:flex;
