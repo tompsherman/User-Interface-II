@@ -12,9 +12,9 @@ nav{
 }
 h1{
     font-size: 3rem;
-    padding:5%;
     font-family: 'Luckiest Guy', cursive;
     letter-spacing: 2px;
+    margin: 2% 5%;
 }
 p{
     font-size:2rem;
@@ -40,9 +40,14 @@ a{
     text-align:center;
     background-color:lightgray;
     font-size:1.6rem;
-    padding:2%;
-    margin: 0;
+    padding: 2%;
+    margin: 5% 0;
     font-family: 'Architects Daughter', cursive;
+}
+a:selection{
+    background-color: darkslategray;
+    color:white;
+
 }
 .home{
     border: 1px solid black;
