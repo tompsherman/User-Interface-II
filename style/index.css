@@ -102,12 +102,13 @@ background-color:white;
     margin:auto;
     align-items:center;
 }
-
-.sect2 img:hover{
-
+.box:hover img{
+    opacity: .3;
 }
 .box{
     width:30%;
+    opacity: 1;
+    transition: 0.5 ease;
 }
 footer{
     background-color: gray;
