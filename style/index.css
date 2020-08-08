@@ -22,9 +22,8 @@ p{
     font-family: 'Architects Daughter', cursive;
 }
 h2{
-    font-size:2.2rem;
-    margin-bottom: 3%;
-    font-family: 'Luckiest Guy', cursive;
+    font-size:4.5rem;
+    font-family: 'Architects Daughter', cursive;
     letter-spacing: 2px;
 
 }
@@ -98,21 +97,21 @@ background-color:white;
 .bigimage{
 
     width:45%;
-    margin:auto;
+    margin: 0 auto;
 
 }
 .bigbox{
     width:45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 .introtext{
     width:80%;
-    margin: 80% 95% 20% 5%;
-    display: inline-block;
-    line-height: 1.5;
-}
-.introtext p{
-    margin-top: 5%;
-    margin-bottom:26%
+    height:50%;
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
 }
 .sect2{
     display:flex;
@@ -121,13 +120,31 @@ background-color:white;
     margin:2% 0;
     align-items:center;
 }
-.box:hover img{
+.box:hover .image{
     opacity: .3;
+}
+.box:hover .middle{
+    opacity: 1;
+}
+.image{
+opacity: 1;
+transition: .5 ease;
+}
+.text{
+    background-color: lightgray;
+    color: black;
+    font-size: 1.6rem;
+    padding: 3%
+}
+.middle{
+    transition: .5 ease;
+    opacity:0;
+    position: sticky;
+    transform: translateY(-300%); 
+    text-align: center;
 }
 .box{
     width:30%;
-    opacity: 1;
-    transition: 0.5 ease;
 }
 footer{
     background-color: gray;
