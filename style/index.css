@@ -134,14 +134,18 @@ transition: .5 ease;
     background-color: lightgray;
     color: black;
     font-size: 1.6rem;
-    padding: 3%
+    padding: 3%;
+    font-family: 'Architects Daughter', cursive;
+
 }
 .middle{
     transition: .5 ease;
     opacity:0;
     position: sticky;
-    transform: translateY(-300%); 
     text-align: center;
+    transform: translateY(-200%);
+    display:flex;
+    align-items: center;
 }
 .box{
     width:30%;
