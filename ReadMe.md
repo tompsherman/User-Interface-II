@@ -1,6 +1,6 @@
 # Flexbox Module Challenge ###
 
-- new branch initial commit
+- new branch initial commit actually
 
 The module challenge is the afternoon project or assignment that students work through independently. This expands on the guided project completed earlier with the instructor.
 
