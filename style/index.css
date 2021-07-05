@@ -1,1 +1,313 @@
-/* Add CSS styling here */
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Luckiest+Guy&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width:100%;
+    font-size: 62.5%;
+    color: #4f4f4f;
+    border: 1px solid red;
+}
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+nav{
+    display:flex;
+}
+h1{
+    font-size: 5rem;
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 2px;
+    margin: 0% 5%;
+}
+p{
+    font-size:2rem;
+    font-family: 'Architects Daughter', cursive;
+}
+h2{
+    font-size:4.5rem;
+    font-family: 'Architects Daughter', cursive;
+    letter-spacing: 2px;
+
+}
+h3{
+    font-size:2rem;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+}
+a{
+
+    text-decoration:none;
+    width:15%;
+    color:black;
+    text-align:center;
+    background-color:lightgray;
+    font-size:1.6rem;
+    padding: 10px;
+    margin: 2% 0;
+    font-family: 'Architects Daughter', cursive;
+}
+a:selection{
+    background-color: darkslategray;
+    color:white;
+
+}
+.home{
+    border: 1px solid black;
+    transition: 2s;
+}
+
+.home:hover{ 
+color:#4f4f4f;
+background-color:white;
+}
+
+.about{
+    border: 1px solid black;
+    transition: 2s;
+}
+.about:hover{ 
+    color:#4f4f4f;
+    background-color:white;
+    }
+.contact{
+    border: 1px solid black;
+    transition: 2s;
+}
+.contact:hover{ 
+    color:#4f4f4f;
+    background-color:white;
+    }
+.projects{
+    border: 1px solid black;
+    transition: 2s;
+}
+.projects:hover{ 
+    columns: #4f4f4f;
+    background-color:white;
+    }
+.topline{
+    padding: 0;
+    width:90%;
+    margin: 0 auto;
+}
+.sect1{
+    display:flex;
+    width: 100%; 
+    margin: 0 auto;
+    background-color: papayawhip;
+}
+.bigimage{
+
+    width:45%;
+    margin: 0 auto;
+
+}
+.bigbox{
+    width:45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.introtext{
+    width:100%;
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+.introtext p{
+margin-top: 5%;}
+.introtext h3{
+    margin-bottom: 5%;
+}
+/*this is the gallery styling*/
+
+.gallery{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.gallery div{
+    width:30%;
+    height: 45vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin:4% 0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery div .hide{
+    width:100%;
+    height:25vh;
+    background-color:#fff;
+    display:none;
+    font-size: 2rem;
+    padding: 3%;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    
+}
+.gallery div:hover .hide{
+    display:block;
+    
+}
+
+.newcal{
+    background-image: url('https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/49573211_2183620598555740_4114021663849316352_n.png?_nc_cat=107&_nc_sid=85a577&_nc_ohc=4hjfGLnFMKAAX_sG0Al&_nc_ht=scontent-iad3-1.xx&oh=bd1b2b4abb4d43c2e6a7be1b06ed4fd6&oe=5F534D9A');
+}
+
+.worldhq{
+    background-image: url('https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/30126947_420566335054952_2446606945977630720_n.png?_nc_cat=111&_nc_sid=85a577&_nc_ohc=h6pVBz3lOpAAX_FLPcf&_nc_ht=scontent-iad3-1.xx&oh=38fc452f6dd98e52d052ec7d9869b707&oe=5F50274C');
+}
+
+.usjoke{
+    background-image: url('https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/95100244_2603588853294429_4865999321310429184_n.png?_nc_cat=109&_nc_sid=85a577&_nc_ohc=9wM1IzP6uoIAX91owa7&_nc_ht=scontent-iad3-1.xx&oh=175057fff536a4feeea44cd43dac9059&oe=5F51446D');
+}
+
+.mooncat{
+    background-image: url('https://scontent-iad3-1.xx.fbcdn.net/v/t31.0-8/p960x960/15936606_369985333382250_2164074007050219947_o.jpg?_nc_cat=106&_nc_sid=85a577&_nc_ohc=2ccwy7_xq74AX9SBXI5&_nc_ht=scontent-iad3-1.xx&_nc_tp=6&oh=f957701eb3ab5a4ec10634bdda1c3612&oe=5F50AEE3');
+}
+
+.cedarbeach{
+    background-image: url('https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/s960x960/61662243_10213449823030981_7451785902285651968_o.jpg?_nc_cat=111&_nc_sid=07e735&_nc_ohc=zIj3bhcXndgAX8ZNQGW&_nc_ht=scontent-iad3-1.xx&_nc_tp=7&oh=7c0607c5fd97e5b46bc0a2a03712e6f8&oe=5F51EBB1');
+}
+
+.r4v{
+    background-image: url('https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/70376332_10216786920559591_1807720957150756864_n.jpg?_nc_cat=111&_nc_sid=8024bb&_nc_ohc=M7mI0o1ByWgAX8pNZiX&_nc_ht=scontent-iad3-1.xx&oh=5006dec2a7e5fe116a4ce843d1ef8bce&oe=5F50625E');
+}
+
+.luxjunk{
+    background-image: url('https://scontent-iad3-1.xx.fbcdn.net/v/t31.0-8/s960x960/10560553_486059758197436_1198865663879265263_o.jpg?_nc_cat=106&_nc_sid=85a577&_nc_ohc=j95XTkuj-nUAX_vywLl&_nc_ht=scontent-iad3-1.xx&_nc_tp=7&oh=a8634bd152a56c2a5d52558efab6633f&oe=5F516B21');
+}
+
+.ironarab{
+    background-image: url('https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/p720x720/30261243_420568435054742_1915042977172946944_o.jpg?_nc_cat=111&_nc_sid=dd9801&_nc_ohc=xZOETaOFIUUAX8TOnqn&_nc_ht=scontent-iad3-1.xx&_nc_tp=6&oh=ab0d034ab1091deb7722cdf3d0711463&oe=5F508D86');
+}
+
+.standup{
+    background-image: url('https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/p720x720/65881704_1251146495054008_739257935720349696_o.jpg?_nc_cat=107&_nc_sid=8024bb&_nc_ohc=BnhRA2DPuQsAX__u8Nx&_nc_ht=scontent-iad3-1.xx&_nc_tp=6&oh=b6b7357acced6ac84f3b4766d238b8f1&oe=5F525E69');
+}
+/*this is section 2 styling*/
+.sect2{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin:2% 0;
+    align-items:center;
+}
+.box:hover .image{
+    opacity: .3;
+}
+.box:hover .middle{
+    opacity: 1;
+}
+.image{
+opacity: 1;
+transition: .5 ease;
+}
+.text{
+    background-color: lightgray;
+    color: black;
+    font-size: 1.6rem;
+    padding: 3%;
+    font-family: 'Architects Daughter', cursive;
+}
+.middle{
+    transition: .5 ease;
+    opacity:0;
+    position: sticky;
+    text-align: center;
+    transform: translateY(-200%);
+    display:flex;
+    align-items: center;
+}
+.box{
+    width:30%;
+}
+footer{
+    background-color: gray;
+    align:center;
+}
+.footer{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    padding:5%
+}
+footer h2{
+    color:black
+}
+/*this is tablet view*/
+@media(max-width:800px){
+
+       .bigbox{
+        justify-content: center;
+        align-items: center;
+    }
+    a{
+        padding:6px;
+    }
+    .sect1, .sect2{
+        width: 90%;
+        justify-content: center;
+        align-content: center;
+        margin: 0 auto;
+    }
+    .introtext{
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.6rem;
+        width:90%;
+        
+    }
+    .middle{transform: translateY(0)}
+}
+
+/*this is smartphone view*/
+@media(max-width:500px){
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
+    nav{
+    flex-direction: column;
+    align-items: center;
+}
+a {
+    margin:0 auto;
+    padding:6px;
+    font-size: 1.6rem;
+    width:30%;
+}
+.sect1{
+flex-flow: column wrap;}
+
+.bigimage{
+    width:80%
+}
+
+.bigbox{
+    width: 80%;
+}
+
+.box{
+    width:50%;
+}
+}
