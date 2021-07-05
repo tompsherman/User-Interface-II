@@ -1,1 +1,162 @@
-/* Add CSS styling here */
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Luckiest+Guy&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width:100%;
+    font-size: 62.5%;
+    border: 1px solid red;
+}
+nav{
+    display:flex;
+}
+h1{
+    font-size: 5rem;
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 2px;
+    margin: 0% 5%;
+}
+p{
+    font-size:2rem;
+    font-family: 'Architects Daughter', cursive;
+}
+h2{
+    font-size:4.5rem;
+    font-family: 'Architects Daughter', cursive;
+    letter-spacing: 2px;
+
+}
+h3{
+    font-size:2rem;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+}
+a{
+
+    text-decoration:none;
+    width:15%;
+    color:black;
+    text-align:center;
+    background-color:lightgray;
+    font-size:1.6rem;
+    padding: 10px;
+    margin: 2% 0;
+    font-family: 'Architects Daughter', cursive;
+}
+a:selection{
+    background-color: darkslategray;
+    color:white;
+
+}
+.home{
+    border: 1px solid black;
+    transition: 2s;
+}
+
+.home:hover{ 
+color:black;
+background-color:white;
+}
+
+.about{
+    border: 1px solid black;
+    transition: 2s;
+}
+.about:hover{ 
+    color:black;
+    background-color:white;
+    }
+.contact{
+    border: 1px solid black;
+    transition: 2s;
+}
+.contact:hover{ 
+    color:black;
+    background-color:white;
+    }
+.projects{
+    border: 1px solid black;
+    transition: 2s;
+}
+.projects:hover{ 
+    color:black;
+    background-color:white;
+    }
+.topline{
+    padding: 0;
+    width:90%;
+    margin: 0 auto;
+}
+.sect1{
+    display:flex;
+    width: 100%; 
+    margin: 0 auto;
+    background-color: papayawhip;
+}
+.bigimage{
+
+    width:45%;
+    margin: 0 auto;
+
+}
+.bigbox{
+    width:45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.introtext{
+    width:80%;
+    height:50%;
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+}
+.sect2{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin:2% 0;
+    align-items:center;
+}
+.box:hover .image{
+    opacity: .3;
+}
+.box:hover .middle{
+    opacity: 1;
+}
+.image{
+opacity: 1;
+transition: .5 ease;
+}
+.text{
+    background-color: lightgray;
+    color: black;
+    font-size: 1.6rem;
+    padding: 3%;
+    font-family: 'Architects Daughter', cursive;
+
+}
+.middle{
+    transition: .5 ease;
+    opacity:0;
+    position: sticky;
+    text-align: center;
+    transform: translateY(-200%);
+    display:flex;
+    align-items: center;
+}
+.box{
+    width:30%;
+}
+footer{
+    background-color: gray;
+    align:center;
+}
+.footer{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    padding:5%
+}
